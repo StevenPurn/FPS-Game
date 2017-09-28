@@ -2,46 +2,45 @@ Initialize engine version: 2017.1.0f3 (472613c02cf7)
 GfxDevice: creating device client; threaded=1
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: AMD Radeon (TM) R9 390 Series (ID=0x67b1)
-    Vendor:   ATI
-    VRAM:     8168 MB
-    Driver:   22.19.662.4
+    Renderer: Intel(R) HD Graphics 620 (ID=0x5916)
+    Vendor:   Intel
+    VRAM:     1119 MB
+    Driver:   21.20.16.4526
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\Users\Steve\Documents\Unity Projects\FPS Games\Builds\Test_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Users\Steve\Documents\Unity Projects\FPS Games\Builds\Test_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\Users\Steve\Documents\Unity Projects\FPS Games\Builds\Test_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
-Loading C:\Users\Steve\Documents\Unity Projects\FPS Games\Builds\Test_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
-Platform assembly: C:\Users\Steve\Documents\Unity Projects\FPS Games\Builds\Test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\Users\Steve\Documents\Unity Projects\FPS Games\Builds\Test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\Users\Steve\Documents\Unity Projects\FPS Games\Builds\Test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Users\Steve\Documents\Unity Projects\FPS Games\Builds\Test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: C:\Users\Steve\Documents\Unity Projects\FPS Games\Builds\Test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading C:\Users\Steve\Documents\Unity Projects\FPS Games\Builds\Test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: C:\Users\Steve\Documents\Unity Projects\FPS Games\Builds\Test_Data\Managed\UnityEngine.Timeline.dll (this message is harmless)
-Loading C:\Users\Steve\Documents\Unity Projects\FPS Games\Builds\Test_Data\Managed\UnityEngine.Timeline.dll into Unity Child Domain
-Platform assembly: C:\Users\Steve\Documents\Unity Projects\FPS Games\Builds\Test_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
-Loading C:\Users\Steve\Documents\Unity Projects\FPS Games\Builds\Test_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
-Platform assembly: C:\Users\Steve\Documents\Unity Projects\FPS Games\Builds\Test_Data\Managed\System.dll (this message is harmless)
-Platform assembly: C:\Users\Steve\Documents\Unity Projects\FPS Games\Builds\Test_Data\Managed\System.Core.dll (this message is harmless)
-- Completed reload, in  0.203 seconds
+Platform assembly: C:\Users\steve\Documents\FPS-Game\Builds\Test_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\steve\Documents\FPS-Game\Builds\Test_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\steve\Documents\FPS-Game\Builds\Test_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\steve\Documents\FPS-Game\Builds\Test_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\steve\Documents\FPS-Game\Builds\Test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\steve\Documents\FPS-Game\Builds\Test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\steve\Documents\FPS-Game\Builds\Test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\steve\Documents\FPS-Game\Builds\Test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\steve\Documents\FPS-Game\Builds\Test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\steve\Documents\FPS-Game\Builds\Test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\steve\Documents\FPS-Game\Builds\Test_Data\Managed\UnityEngine.Timeline.dll (this message is harmless)
+Loading C:\Users\steve\Documents\FPS-Game\Builds\Test_Data\Managed\UnityEngine.Timeline.dll into Unity Child Domain
+Platform assembly: C:\Users\steve\Documents\FPS-Game\Builds\Test_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\steve\Documents\FPS-Game\Builds\Test_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: C:\Users\steve\Documents\FPS-Game\Builds\Test_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Users\steve\Documents\FPS-Game\Builds\Test_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.343 seconds
 <RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 0.811949 ms
+UnloadTime: 1.191680 ms
+Currently playing Slayer
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 340c -> priority: 1 
-  Thread -> id: 29c4 -> priority: 1 
-Log: connection {1} has been disconnected by timeout; address {::ffff:127.0.0.1:7777} time {34330}, last rec time {32116} rtt {11} timeout {2000}
-ClientDisconnected due to error: Timeout
+  Thread -> id: 1184 -> priority: 1 
+  Thread -> id: 14e8 -> priority: 1 
+Tried to create a team that already exists
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Log: connection {1} has been disconnected by timeout; address {::ffff:127.0.0.1:7777} time {88822}, last rec time {86338} rtt {10} timeout {2000}
-ClientDisconnected due to error: Timeout
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Log: connection {1} has been disconnected by timeout; address {::ffff:127.0.0.1:7777} time {116204}, last rec time {113770} rtt {11} timeout {2000}
+Log: connection {1} has been disconnected by timeout; address {::ffff:127.0.0.1:7777} time {38146}, last rec time {35664} rtt {12} timeout {2000}
 ClientDisconnected due to error: Timeout
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)

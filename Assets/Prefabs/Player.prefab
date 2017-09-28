@@ -369,8 +369,8 @@ MonoBehaviour:
   cam: {fileID: 20017437044212374}
   weapon:
     name: Sniper
-    damage: 10
-    range: 3.4028235e+38
+    damage: 210
+    range: 2000
     layerMask:
       serializedVersion: 2
       m_Bits: 4294967295
@@ -387,6 +387,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   lookSensitivity: 3
+  maxHealth: 100
+  health: 0
+  maxShield: 100
+  shield: 0
+  team: 0
 --- !u!114 &114681977961688726
 MonoBehaviour:
   m_ObjectHideFlags: 1
