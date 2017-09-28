@@ -33,6 +33,11 @@ public class PlayerController : MonoBehaviour {
         HandleInput();
 	}
 
+    public void SetTeam(TeamEnum.Team _team)
+    {
+        team = _team;
+    }
+
     private void HandleInput()
     {
         float xMove = Input.GetAxisRaw("Horizontal");

@@ -13,7 +13,6 @@ public class PlayerShoot : NetworkBehaviour {
 
     InputManager inputManager;
     public PlayerWeapon weapon;
-    private GameTypeSettings gameTypeManager;
 
     void Start()
     {
@@ -25,7 +24,6 @@ public class PlayerShoot : NetworkBehaviour {
         player = GetComponent<PlayerController>();
         team = player.team;
         inputManager = FindObjectOfType<InputManager>();
-        gameTypeManager = FindObjectOfType<GameTypeSettings>();
     }
 
     // Update is called once per frame
@@ -36,9 +34,12 @@ public class PlayerShoot : NetworkBehaviour {
 
     void CheckInput()
     {
-        if (inputManager.GetButtonDown("Fire1"))
+        if (weapon.canShoot)
         {
-            Shoot();
+            if (inputManager.GetButtonDown("Fire1"))
+            {
+                Shoot();
+            }
         }
     }
 
@@ -85,6 +86,7 @@ public class PlayerShoot : NetworkBehaviour {
         }
     }
 
+    [Client]
     private void SetReticuleColor(Color col)
     {
         GameObject.Find("Reticule").GetComponent<Image>().color = col;
