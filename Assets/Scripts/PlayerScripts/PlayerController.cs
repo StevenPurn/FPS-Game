@@ -15,16 +15,17 @@ public class PlayerController : MonoBehaviour {
     public float health;
     public float maxShield = 100f;
     public float shield;
-
-    public TeamEnum.Team team = TeamEnum.Team.red;
+    public Player player;
 
 	// Use this for initialization
 	void Start ()
     {
+        player = new Player();
         motor = GetComponent<PlayerMotor>();
         health = maxHealth;
         shield = maxShield;
-        ScoreManager.AddTeam(team);
+        TeamManager.SetPlayerTeam(player);
+        ScoreManager.AddTeam(player.teamColor);
 	}
 	
 	// Update is called once per frame
@@ -33,11 +34,17 @@ public class PlayerController : MonoBehaviour {
         HandleInput();
 	}
 
-    public void SetTeam(TeamEnum.Team _team)
+    public void SetTeam(Teams.TeamColor _team)
     {
-        team = _team;
+        player.teamColor = _team;
     }
 
+    public Teams.TeamColor GetTeam()
+    {
+        return player.teamColor;
+    }
+
+    //Movement/aiming
     private void HandleInput()
     {
         float xMove = Input.GetAxisRaw("Horizontal");

@@ -38,5 +38,6 @@ public class PlayerSetup : NetworkBehaviour {
         {
             component.enabled = false;
         }
+        Camera.main.enabled = false;
     }
 }

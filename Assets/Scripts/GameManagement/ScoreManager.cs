@@ -4,9 +4,9 @@ using UnityEngine;
 
 public static class ScoreManager {
 
-    public static Dictionary<TeamEnum.Team, int> scores = new Dictionary<TeamEnum.Team, int>();
+    public static Dictionary<Teams.TeamColor, int> scores = new Dictionary<Teams.TeamColor, int>();
 
-    public static void AddTeam(TeamEnum.Team team, int score = 0)
+    public static void AddTeam(Teams.TeamColor team, int score = 0)
     {
         if (scores.ContainsKey(team))
         {
@@ -16,10 +16,12 @@ public static class ScoreManager {
         else
         {
             scores.Add(team, score);
+            Debug.Log(team.ToString() + " added to scoremanager");
         }
     }
 
-    public static void RemoveTeam(TeamEnum.Team team)
+    //Shouldn't remove team, maybe add state for inactive if all players have left?
+    public static void RemoveTeam(Teams.TeamColor team)
     {
         if (scores.ContainsKey(team))
         {
@@ -31,12 +33,35 @@ public static class ScoreManager {
         }
     }
 
-    public static void ChangeScore(TeamEnum.Team team, int score = 1)
+    public static void ChangeScore(Teams team, int score = 1)
     {
-        if (scores.ContainsKey(team))
+        if (TeamManager.teams.Contains(team))
         {
-            scores[team] += score;
-            Debug.Log(team.ToString() + " team score: " + scores[team]);
+            team.score += score;
+            Debug.Log(team.color.ToString() + " team score: " + team.score);
+            CheckForWin(team);
+        }
+    }
+
+    public static void CheckForWin(Teams team)
+    {
+        if(team.score >= GameTypeSettings.gameType.scoreToWin)
+        {
+            Debug.Log(team.color.ToString() + " won!");
+        }
+    }
+
+    public static void ChangeScore(Teams.TeamColor teamColor, int score = 1)
+    {
+        if (TeamManager.CheckIfTeamExists(teamColor))
+        {
+            foreach (var team in TeamManager.teams)
+            {
+                if(team.color == teamColor)
+                {
+                    ChangeScore(team, score);
+                }
+            }
         }
     }
 }

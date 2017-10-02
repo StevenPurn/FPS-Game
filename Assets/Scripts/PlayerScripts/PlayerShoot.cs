@@ -9,7 +9,7 @@ public class PlayerShoot : NetworkBehaviour {
 
     private const string playerTag = "Player";
     private PlayerController player;
-    private TeamEnum.Team team;
+    private Teams.TeamColor team;
 
     InputManager inputManager;
     public PlayerWeapon weapon;
@@ -22,7 +22,7 @@ public class PlayerShoot : NetworkBehaviour {
         }
 
         player = GetComponent<PlayerController>();
-        team = player.team;
+        team = player.GetTeam();
         inputManager = FindObjectOfType<InputManager>();
     }
 
@@ -64,12 +64,12 @@ public class PlayerShoot : NetworkBehaviour {
         {
             if (hit.collider.GetComponent<PlayerController>() != null)
             {
-                if(hit.collider.GetComponent<PlayerController>().team != team)
+                if(hit.collider.GetComponent<PlayerController>().GetTeam() != team)
                 {
                     //Change reticule to red
                     SetReticuleColor(Color.red);
                 }
-                else if(hit.collider.GetComponent<PlayerController>().team == team)
+                else if(hit.collider.GetComponent<PlayerController>().GetTeam() == team)
                 {
                     //Change reticule to green
                     SetReticuleColor(Color.green);
@@ -101,7 +101,7 @@ public class PlayerShoot : NetworkBehaviour {
         bool killedPlayer = playerCon.TakeDamage(weapon.damage, weapon);
         if (GameTypeSettings.gameType.gameType == GameType.slayer)
         {
-            if (killedPlayer && playerCon.team != team)
+            if (killedPlayer && playerCon.GetTeam() != team)
             {
                 ScoreManager.ChangeScore(team);
             }

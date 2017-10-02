@@ -2,45 +2,195 @@ Initialize engine version: 2017.1.0f3 (472613c02cf7)
 GfxDevice: creating device client; threaded=1
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) HD Graphics 620 (ID=0x5916)
-    Vendor:   Intel
-    VRAM:     1119 MB
-    Driver:   21.20.16.4526
+    Renderer: AMD Radeon (TM) R9 390 Series (ID=0x67b1)
+    Vendor:   ATI
+    VRAM:     8168 MB
+    Driver:   22.19.662.4
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\Users\steve\Documents\FPS-Game\Builds\Test_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Users\steve\Documents\FPS-Game\Builds\Test_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\Users\steve\Documents\FPS-Game\Builds\Test_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
-Loading C:\Users\steve\Documents\FPS-Game\Builds\Test_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
-Platform assembly: C:\Users\steve\Documents\FPS-Game\Builds\Test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\Users\steve\Documents\FPS-Game\Builds\Test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\Users\steve\Documents\FPS-Game\Builds\Test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Users\steve\Documents\FPS-Game\Builds\Test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: C:\Users\steve\Documents\FPS-Game\Builds\Test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading C:\Users\steve\Documents\FPS-Game\Builds\Test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: C:\Users\steve\Documents\FPS-Game\Builds\Test_Data\Managed\UnityEngine.Timeline.dll (this message is harmless)
-Loading C:\Users\steve\Documents\FPS-Game\Builds\Test_Data\Managed\UnityEngine.Timeline.dll into Unity Child Domain
-Platform assembly: C:\Users\steve\Documents\FPS-Game\Builds\Test_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
-Loading C:\Users\steve\Documents\FPS-Game\Builds\Test_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
-Platform assembly: C:\Users\steve\Documents\FPS-Game\Builds\Test_Data\Managed\System.dll (this message is harmless)
-Platform assembly: C:\Users\steve\Documents\FPS-Game\Builds\Test_Data\Managed\System.Core.dll (this message is harmless)
-- Completed reload, in  0.343 seconds
+Platform assembly: C:\Users\Steve\Documents\Unity Projects\FPS Games\Builds\Test_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Steve\Documents\Unity Projects\FPS Games\Builds\Test_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Steve\Documents\Unity Projects\FPS Games\Builds\Test_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Steve\Documents\Unity Projects\FPS Games\Builds\Test_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Steve\Documents\Unity Projects\FPS Games\Builds\Test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Steve\Documents\Unity Projects\FPS Games\Builds\Test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Steve\Documents\Unity Projects\FPS Games\Builds\Test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Steve\Documents\Unity Projects\FPS Games\Builds\Test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Steve\Documents\Unity Projects\FPS Games\Builds\Test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Steve\Documents\Unity Projects\FPS Games\Builds\Test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Steve\Documents\Unity Projects\FPS Games\Builds\Test_Data\Managed\UnityEngine.Timeline.dll (this message is harmless)
+Loading C:\Users\Steve\Documents\Unity Projects\FPS Games\Builds\Test_Data\Managed\UnityEngine.Timeline.dll into Unity Child Domain
+Platform assembly: C:\Users\Steve\Documents\Unity Projects\FPS Games\Builds\Test_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\Steve\Documents\Unity Projects\FPS Games\Builds\Test_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: C:\Users\Steve\Documents\Unity Projects\FPS Games\Builds\Test_Data\Managed\ProBuilderCore-Unity5.dll (this message is harmless)
+Loading C:\Users\Steve\Documents\Unity Projects\FPS Games\Builds\Test_Data\Managed\ProBuilderCore-Unity5.dll into Unity Child Domain
+Platform assembly: C:\Users\Steve\Documents\Unity Projects\FPS Games\Builds\Test_Data\Managed\pb_Stl.dll (this message is harmless)
+Loading C:\Users\Steve\Documents\Unity Projects\FPS Games\Builds\Test_Data\Managed\pb_Stl.dll into Unity Child Domain
+Platform assembly: C:\Users\Steve\Documents\Unity Projects\FPS Games\Builds\Test_Data\Managed\Poly2Tri.dll (this message is harmless)
+Loading C:\Users\Steve\Documents\Unity Projects\FPS Games\Builds\Test_Data\Managed\Poly2Tri.dll into Unity Child Domain
+Platform assembly: C:\Users\Steve\Documents\Unity Projects\FPS Games\Builds\Test_Data\Managed\ProBuilderMeshOps-Unity5.dll (this message is harmless)
+Loading C:\Users\Steve\Documents\Unity Projects\FPS Games\Builds\Test_Data\Managed\ProBuilderMeshOps-Unity5.dll into Unity Child Domain
+Platform assembly: C:\Users\Steve\Documents\Unity Projects\FPS Games\Builds\Test_Data\Managed\KdTreeLib.dll (this message is harmless)
+Loading C:\Users\Steve\Documents\Unity Projects\FPS Games\Builds\Test_Data\Managed\KdTreeLib.dll into Unity Child Domain
+Platform assembly: C:\Users\Steve\Documents\Unity Projects\FPS Games\Builds\Test_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Users\Steve\Documents\Unity Projects\FPS Games\Builds\Test_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.141 seconds
 <RI> Initializing input.
-XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.191680 ms
+UnloadTime: 0.728219 ms
 Currently playing Slayer
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 1184 -> priority: 1 
-  Thread -> id: 14e8 -> priority: 1 
+  Thread -> id: 1b98 -> priority: 1 
+  Thread -> id: 530 -> priority: 1 
+Player:  assigned to blue
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+blue added to scoremanager
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Player:  assigned to red
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+red added to scoremanager
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Log: connection {1} has been disconnected by timeout; address {::ffff:127.0.0.1:7777} time {154569}, last rec time {152076} rtt {12} timeout {2000}
+ClientDisconnected due to error: Timeout
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Player:  assigned to blue
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
 Tried to create a team that already exists
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Log: connection {1} has been disconnected by timeout; address {::ffff:127.0.0.1:7777} time {38146}, last rec time {35664} rtt {12} timeout {2000}
+Player:  assigned to red
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Tried to create a team that already exists
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Log: connection {1} has been disconnected by timeout; address {::ffff:127.0.0.1:7777} time {383358}, last rec time {380865} rtt {11} timeout {2000}
+ClientDisconnected due to error: Timeout
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Player:  assigned to blue
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Tried to create a team that already exists
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Player:  assigned to red
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Tried to create a team that already exists
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Log: connection {1} has been disconnected by timeout; address {::ffff:127.0.0.1:7777} time {482516}, last rec time {480023} rtt {11} timeout {2000}
+ClientDisconnected due to error: Timeout
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Player:  assigned to blue
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Tried to create a team that already exists
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Player:  assigned to red
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Tried to create a team that already exists
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Log: connection {1} has been disconnected by timeout; address {::ffff:127.0.0.1:7777} time {550909}, last rec time {548715} rtt {12} timeout {2000}
+ClientDisconnected due to error: Timeout
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Player:  assigned to blue
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Tried to create a team that already exists
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Player:  assigned to red
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Tried to create a team that already exists
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Log: connection {1} has been disconnected by timeout; address {::ffff:127.0.0.1:7777} time {575727}, last rec time {573243} rtt {10} timeout {2000}
+Attempt to send to not connected connection {1}
+ 
+(Filename:  Line: 362)
+
+Failed to send internal buffer channel:1 bytesToSend:41
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Send Error: WrongConnection channel:1 bytesToSend:41
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ClientDisconnected due to error: Timeout
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Player:  assigned to blue
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Tried to create a team that already exists
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Player:  assigned to red
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Tried to create a team that already exists
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Log: connection {1} has been disconnected by timeout; address {::ffff:127.0.0.1:7777} time {728110}, last rec time {725626} rtt {12} timeout {2000}
+Attempt to send to not connected connection {1}
+ 
+(Filename:  Line: 362)
+
+Failed to send internal buffer channel:1 bytesToSend:41
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Send Error: WrongConnection channel:1 bytesToSend:41
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
 ClientDisconnected due to error: Timeout
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)

@@ -115,8 +115,10 @@
     <Compile Include="Assets\Scripts\GameManagement\GameTypeSettings.cs" />
     <Compile Include="Assets\Scripts\GameManagement\InputManager.cs" />
     <Compile Include="Assets\Scripts\GameManagement\ScoreManager.cs" />
-    <Compile Include="Assets\Scripts\GameManagement\TeamEnum.cs" />
+    <Compile Include="Assets\Scripts\GameManagement\TeamManager.cs" />
+    <Compile Include="Assets\Scripts\GameManagement\Teams.cs" />
     <Compile Include="Assets\Scripts\GameTypes\Bullshit.cs" />
+    <Compile Include="Assets\Scripts\PlayerScripts\Player.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\PlayerMotor.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\PlayerSetup.cs" />
