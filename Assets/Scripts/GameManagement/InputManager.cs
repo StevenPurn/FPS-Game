@@ -10,36 +10,26 @@ public class InputManager : MonoBehaviour{
     private void Start()
     {
 
-
         buttonKeys = new Dictionary<string, KeyCode>();
 
-        //read these from user prefs
+        //read these from XML
         buttonKeys["Jump"] = KeyCode.Space;
         buttonKeys["Left"] = KeyCode.LeftArrow;
         buttonKeys["Fire1"] = KeyCode.Mouse0;
-        //  LoadPrefs();
+        //LoadPrefs();
     }
 
     //Fix this shit
-    private void LoadPrefs()
+    private void LoadControls()
     {
-        foreach(var key in buttonKeys)
-        {
-            if(PlayerPrefs.GetString(key.Key) != null)
-            {
-                //buttonKeys[key.Key] = PlayerPrefs.GetString(key.Key);
-            }
-        }
-        Debug.Log("PlayerPrefs loaded");
+        //Actually nah, load from XML to be implemented
+        Debug.Log("Controls loaded");
     }
 
-    private void SavePrefs()
+    private void SaveControls()
     {
-        foreach (var key in buttonKeys)
-        {
-            PlayerPrefs.SetString(key.Key, key.Value.ToString());
-        }
-        PlayerPrefs.Save();
+        //Actually nah, load from XML to be implemented
+        Debug.Log("Controls saved");
     }
 
     private void Update()
@@ -47,7 +37,7 @@ public class InputManager : MonoBehaviour{
         CheckInput();
     }
 
-    //recognize input and replace keybindings
+    //recognize input and replace keybindings while setting new control scheme up
 
     void CheckInput()
     {

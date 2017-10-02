@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Slayer>
-    <gameName>Slayer</gameName>
-    <gameType>slayer</gameType>
+    <name>Slayer</name>
     <primaryWeapon>Battle Rifle</primaryWeapon>
     <secondaryWeapon>Sniper Rifle</secondaryWeapon>
     <moveSpeed>1</moveSpeed>
@@ -10,14 +9,13 @@
     <health>1</health>
     <jump>1</jump>
     <damage>1</damage>
-    <scoreToWin>25</scoreToWin>
     <maxTeamSize>1</maxTeamSize>
-    <teamBased>false</teamBased>
+    <scoreToWin>25</scoreToWin>
+    <isTeamBased>false</isTeamBased>
     <isObjective>false</isObjective>
   </Slayer>
   <TeamSlayer>
-    <gameName>Team Slayer</gameName>
-    <gameType>teamSlayer</gameType>
+    <name>Team Slayer</name>
     <primaryWeapon>Battle Rifle</primaryWeapon>
     <secondaryWeapon>Sniper Rifle</secondaryWeapon>
     <moveSpeed>1</moveSpeed>
@@ -25,9 +23,23 @@
     <health>1</health>
     <jump>1</jump>
     <damage>1</damage>
-    <scoreToWin>50</scoreToWin>
     <maxTeamSize>4</maxTeamSize>
-    <teamBased>true</teamBased>
+    <scoreToWin>50</scoreToWin>
+    <isTeamBased>true</isTeamBased>
     <isObjective>false</isObjective>
   </TeamSlayer>
+  <CTF>
+    <name>Capture The Flag</name>
+    <primaryWeapon>Battle Rifle</primaryWeapon>
+    <secondaryWeapon>Sniper Rifle</secondaryWeapon>
+    <moveSpeed>1</moveSpeed>
+    <shield>1</shield>
+    <health>1</health>
+    <jump>1</jump>
+    <damage>1</damage>
+    <maxTeamSize>4</maxTeamSize>
+    <scoreToWin>5</scoreToWin>
+    <isTeamBased>true</isTeamBased>
+    <isObjective>true</isObjective>
+  </CTF>
 </GameTypes>

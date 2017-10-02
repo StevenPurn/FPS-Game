@@ -127,6 +127,7 @@
     <Compile Include="Assets\Scripts\Utility\XMLHelper.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Data\Controls.xml" />
     <None Include="Assets\Data\GameTypes.xml" />
     <None Include="Assets\Data\Weapons.xml" />
     <None Include="Assets\ProCore\ProBuilder\API Examples\Icosphere FFT\README.txt" />

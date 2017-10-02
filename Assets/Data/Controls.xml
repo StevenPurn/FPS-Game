@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Controls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Default>
+    <name>Bumper Jumper</name>
+    <Jump></Jump>
+    <sensitivity>3</sensitivity>
+    <isVerticallyInverted>false</isVerticallyInverted>
+    <isHorizontallyInverted>false</isHorizontallyInverted>
+  </Default>
+</Controls>

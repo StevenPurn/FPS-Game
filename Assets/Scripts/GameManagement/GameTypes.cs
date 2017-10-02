@@ -16,7 +16,7 @@ public class GameTypes {
     public float damageMod = 1.0f;
     public int scoreToWin = 50;
     public int maxTeamSize = 4;
-    public bool teamBased = true;
+    public bool isTeamBased = true;
     public bool isObjective = false;
 
 }
