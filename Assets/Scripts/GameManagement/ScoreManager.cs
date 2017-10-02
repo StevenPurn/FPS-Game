@@ -4,9 +4,7 @@ using UnityEngine;
 
 public static class ScoreManager {
 
-    public static Dictionary<Teams.TeamColor, int> scores = new Dictionary<Teams.TeamColor, int>();
-
-    public static void AddTeam(Teams.TeamColor team, int score = 0)
+    /*public static void AddTeam(Teams.TeamColor team, int score = 0)
     {
         if (scores.ContainsKey(team))
         {
@@ -18,14 +16,15 @@ public static class ScoreManager {
             scores.Add(team, score);
             Debug.Log(team.ToString() + " added to scoremanager");
         }
-    }
+    }*/
 
     //Shouldn't remove team, maybe add state for inactive if all players have left?
-    public static void RemoveTeam(Teams.TeamColor team)
+    public static void DeactivateTeam(Teams team)
     {
-        if (scores.ContainsKey(team))
+        if(team.players.Count <= 0)
         {
-            scores.Remove(team);
+            team.SetActive(false);
+            //Grey out team name on scoreboard
         }
         else
         {
@@ -48,6 +47,7 @@ public static class ScoreManager {
         if(team.score >= GameTypeSettings.gameType.scoreToWin)
         {
             Debug.Log(team.color.ToString() + " won!");
+            //Reset game type and scores
         }
     }
 

@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections.Generic;
+using System.Xml;
 
 
 public class InputManager : MonoBehaviour{
@@ -8,6 +9,8 @@ public class InputManager : MonoBehaviour{
 
     private void Start()
     {
+
+
         buttonKeys = new Dictionary<string, KeyCode>();
 
         //read these from user prefs

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Weapons xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BattleRifle>
+    <name>Battle Rifle</name>
+    <damage>50</damage>
+    <range>90</range>
+    <fireDelay>0.2</fireDelay>
+    <isAutomatic>false</isAutomatic>
+  </BattleRifle>
+  <SniperRifle>
+    <name>Sniper Rifle</name>
+    <damage>210</damage>
+    <range>9001</range>
+    <fireDelay>0.4</fireDelay>
+    <isAutomatic>false</isAutomatic>
+  </SniperRifle>
+</Weapons>

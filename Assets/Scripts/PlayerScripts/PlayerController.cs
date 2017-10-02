@@ -25,7 +25,7 @@ public class PlayerController : MonoBehaviour {
         health = maxHealth;
         shield = maxShield;
         TeamManager.SetPlayerTeam(player);
-        ScoreManager.AddTeam(player.teamColor);
+        //ScoreManager.AddTeam(player.teamColor);
 	}
 	
 	// Update is called once per frame
@@ -71,7 +71,7 @@ public class PlayerController : MonoBehaviour {
 
     }
 
-    public bool TakeDamage(float amount, PlayerWeapon weapon)
+    public bool TakeDamage(float amount, Weapon weapon)
     {
         if(amount > shield)
         {
@@ -90,7 +90,7 @@ public class PlayerController : MonoBehaviour {
         return false;
     }
 
-    public void Die(PlayerWeapon weapon)
+    public void Die(Weapon weapon)
     {
         //Die and generate ragdoll
         Debug.Log(gameObject.name + " has been killed using " + weapon.name);

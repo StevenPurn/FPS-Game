@@ -374,6 +374,8 @@ MonoBehaviour:
     layerMask:
       serializedVersion: 2
       m_Bits: 4294967295
+    fireDelay: 0.5
+    canShoot: 1
 --- !u!114 &114491233178371570
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -391,7 +393,7 @@ MonoBehaviour:
   health: 0
   maxShield: 100
   shield: 0
-  team: 0
+  player: {fileID: 0}
 --- !u!114 &114681977961688726
 MonoBehaviour:
   m_ObjectHideFlags: 1

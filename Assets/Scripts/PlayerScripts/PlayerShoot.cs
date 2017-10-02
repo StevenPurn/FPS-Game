@@ -12,7 +12,7 @@ public class PlayerShoot : NetworkBehaviour {
     private Teams.TeamColor team;
 
     InputManager inputManager;
-    public PlayerWeapon weapon;
+    public Weapon weapon;
 
     void Start()
     {
